@@ -1,0 +1,69 @@
+.carousel-inner img {
+    width: 100%;
+    height: 90%;;
+}
+
+.navbar, .btn, .btn:hover{
+    background-color: #970c33;
+    font-weight: bold; 
+}
+
+.nav-item{
+    color: #f6f6ec;
+    border-left: 1px solid #f6f6ec;
+}
+
+.active{
+    color: #fec459 !important;
+    text-decoration: underline;
+}
+
+.nav-item:last-child{
+    border-right: 1px solid #f6f6ec;
+}
+
+.container{
+    background-color: #f6f6ec;
+}
+
+#content{
+    padding: 10px;
+}
+
+.container, .carousel-inner, .card{
+    border: 2px solid #970c33;
+}
+
+.card-body p{
+    font-size: calc(18px + 5 * (50vw - 768px) / (1440 - 768));
+}
+
+h1, h2{
+    width: 640px;
+    margin: 10px 0px 10px 0px;
+    border-bottom: 2px solid #970c33;
+}
+
+p{
+    text-align: justify;
+}
+
+#osszeg{
+    font-size: calc(30px + 5 * (50vw - 768px) / (1440 - 768));
+}
+
+body {
+    background-image: url("kepek/hatter.png");
+}
+
+a:hover, button:hover {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
